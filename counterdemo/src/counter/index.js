@@ -12,11 +12,10 @@ const CounterDemo = () => {
       <div classNameName="main-div">
         <div className="container">
           <h1>Increment/Decrement counter</h1>
-          {/* <h4>using React and Redux</h4> */}
           <div className="quantity">
             <button
               className="quantity__minus"
-              title="Decrement" 
+              title="Decrement"
               onClick={() => dispatch(decNumber())}
             >
               <span>-</span>

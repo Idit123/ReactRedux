@@ -4,15 +4,19 @@ let nextTodoId = 0
 export const addTodo = (todolist) => {
   return {
     type: ADD_TODO,
-    id: nextTodoId++,
-    todolist,
+    payload: {
+      id: nextTodoId++,
+      todolist,
+    },
   }
 }
 
-export const removeTodo = (todolist) => {
+export const removeTodo = (id, todolist) => {
   return {
     type: REMOVE_TODO,
-    id: nextTodoId--,
-    todolist,
+    payload: {
+      id,
+      todolist,
+    },
   }
 }

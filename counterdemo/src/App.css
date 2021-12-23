@@ -30,7 +30,7 @@ h4 {
   width: 32px;
   height: 33px;
   margin: 0;
-  background: #dee0ee;
+  background: #7182f7;
   text-decoration: none;
   text-align: center;
   line-height: 33px;
@@ -38,7 +38,7 @@ h4 {
 }
 .quantity__minus:hover,
 .quantity__plus:hover {
-  background: #575b71;
+  background: #9dabf7;
   color: #fff;
 }
 .quantity__minus {
@@ -52,17 +52,18 @@ h4 {
   height: 29px;
   margin: 0;
   padding: 0;
+  font-size: 16px;
   text-align: center;
-  border-top: 2px solid #dee0ee;
-  border-bottom: 2px solid #dee0ee;
-  border-left: 1px solid #dee0ee;
-  border-right: 2px solid #dee0ee;
+  border-top: 2px solid #7182f7;
+  border-bottom: 2px solid #7182f7;
+  border-left: 1px solid #7182f7;
+  border-right: 2px solid #7182f7;
   background: #fff;
   color: #000;
 }
 .quantity__minus,
 .quantity__plus {
-  color: #000;
+  color: #fff;
   border: none;
 }
 .quantity__minus:visited,
